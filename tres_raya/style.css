@@ -1,0 +1,73 @@
+body{
+    background-color:darkslateblue;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+#textovictoria{
+    visibility: hidden;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    margin: auto;
+    gap: 0;
+}
+button {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#botonReiniciar{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background-color: beige;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#botonReiniciar:hover {
+    background-color: bisque; /* Color al pasar el ratón */
+}
+
+#regreso {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background-color: beige; /* Color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+#regreso:hover {
+    background-color: bisque; /* Color al pasar el ratón */
+}
+
+#control{
+    display: flex;
+}
